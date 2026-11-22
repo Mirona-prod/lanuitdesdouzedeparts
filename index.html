@@ -140,9 +140,9 @@ footer .w{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 /* À MODIFIER : ces 4 valeurs suffisent à mettre le site à jour */
 var CONFIG={
   klikego:"https://www.klikego.com",   // lien exact de la page d’inscription
-  date:"",                              // ex. "2027-06-12T22:00:00" (vide = compte à rebours masqué)
-  dateTexte:"",                         // ex. "Samedi 12 juin 2027, 22 h"
-  lieu:""                               // ex. "Château de …, Maine-et-Loire"
+  date:"",                              // ex. "2027-06-05T19:00:00" (vide = compte à rebours masqué)
+  dateTexte:"",                         // ex. "Samedi 05 juin 2027, 22 h"
+  lieu:""                               // ex. "Saumur, Maine-et-Loire"
 };
 document.querySelectorAll("[data-klikego]").forEach(function(a){a.href=CONFIG.klikego});
 function put(id,t){var e=document.getElementById(id);if(t){e.textContent=t;e.classList.remove("todo")}}
